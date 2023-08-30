@@ -27,11 +27,11 @@ int _sqrt_recursion(int n)
 
 int _sqrt_two(int n, int c)
 {
-	if (c * c ==n)
+	if (c * c == n)
 	{
 		return (c);
 	}
-	if (c * c > n)	
+	if (c * c > n)
 	{
 		return (-1);
 	}
