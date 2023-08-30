@@ -3,7 +3,6 @@
 /**
  * is_prime_number - prints a string in reverse
  * @n: int to calculate its factoriel
- * 
  * Return: puissance
  *
  */
@@ -13,7 +12,7 @@ int is_prime_number(int n)
 	{
 		return (0);
 	}
-	return (_pr(n,2));
+	return (_pr(n, 2));
 }
 
 /**
@@ -31,7 +30,7 @@ int _pr(int n, int c)
 	{
 		return (1);
 	}
-	if ((n % c) == 0 )
+	if ((n % c) == 0)
 	{
 		return (0);
 	}
