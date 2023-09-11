@@ -1,4 +1,4 @@
+#ifndef __FILE__
 #include <stdlib.h>
-#ifndef ABS
 #define ABS abs
 #endif
