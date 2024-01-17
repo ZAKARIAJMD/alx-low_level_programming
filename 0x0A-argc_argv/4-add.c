@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
+
 /**
  * main - Entry point
  *@argc: input
@@ -11,13 +12,7 @@
 
 int main(int argc, char *argv[])
 {
-	int x = argc;
-
-	int i;
-
-	int sum = 0;
-
-	int j;
+	int i, j, sum = 0, x = argc;
 
 	for (i = 1; i < x; i++)
 	{
